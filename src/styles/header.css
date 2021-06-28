@@ -1,0 +1,22 @@
+.navbar {
+  padding: 8px 16px;
+  min-height: 85px;
+  background: white;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+.nav-link,
+.nav-dropdown {
+  color: rgba(0, 0, 0, 0.6);
+}
+.nav-link:focus {
+  font-weight: 500;
+  color: #333;
+}
+.dropdown-item:active {
+  background: #333;
+}
+.nav-link:hover {
+  color: #333;
+}

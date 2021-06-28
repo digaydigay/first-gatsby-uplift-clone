@@ -1,0 +1,68 @@
+.Footer {
+  padding: 20px 0;
+  background: rgb(26, 25, 25);
+  color: white;
+}
+.Footer .navbar {
+  flex-direction: column;
+  text-align: left;
+  background: rgb(26, 25, 25);
+}
+.Footer .navbar .nav-link {
+  color: white;
+  text-align: left;
+  width: 100%;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.Footer .navbar .dropdown {
+  width: 100%;
+  text-align: left;
+}
+.Footer .navbar .dropdown .dropdown-item {
+  color: #333;
+  transition: all ease-in 100ms;
+}
+
+.Footer > div {
+  text-align: center;
+  margin-top: 20px;
+}
+.Footer > div a {
+  color: white;
+  margin-bottom: 10px;
+}
+.Footer > div a:hover {
+  text-decoration: underline;
+}
+.Footer > div h6 {
+  margin-top: 10px;
+  font-weight: 300;
+  letter-spacing: 0.2px;
+}
+.Footer .accounts li {
+  position: relative;
+  font-size: 23px;
+  width: 40px;
+  height: 40px;
+  background: rgba(128, 128, 128, 0.5);
+  border-radius: 50px;
+
+  margin: 10px;
+}
+.Footer .accounts li i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.Footer .fas.fa-star {
+  color: orange;
+}
+.Footer .navbar .nav-link:hover,
+.Footer .navbar .dropdown .dropdown-item:hover {
+  text-decoration: none;
+}
+.Footer .navbar .dropdown .dropdown-item:active {
+  color: white;
+}

@@ -1,0 +1,219 @@
+.home_hero {
+  padding: 64px 0;
+  background: url("https://www.upliftcodecamp.com/img/session_1_banner.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+.hero_details {
+  margin-top: 48px;
+  color: white;
+  text-align: center;
+  position: relative;
+  padding: 24px;
+  animation-name: herodetailsanimate;
+  animation-duration: 2s;
+}
+@keyframes herodetailsanimate {
+  0% {
+    top: 200px;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+.home_hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+.hero_details h4 {
+  padding-bottom: 1.5rem;
+}
+.hero_details .btn {
+  padding: 10px 40px;
+}
+.hero_details .btn:focus {
+  box-shadow: none !important;
+}
+
+/* Section  One */
+.Section1 {
+  padding: 48px 15px;
+  display: block;
+  margin-bottom: 120px;
+}
+.Section1 .embed {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding-top: 75%;
+  border-radius: 5px;
+}
+.Section1 .embed_item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* section2 */
+.Section2 .card {
+  text-align: center;
+  box-shadow: 0 1px 30px 0 rgba(0, 0, 0, 0.3);
+  height: 100%;
+}
+.Section2 .card:hover .card-title {
+  color: rgb(5, 39, 112);
+}
+.Section2 .card-text {
+  color: #333;
+}
+
+/* Section3 */
+.Section3 {
+  padding-top: 15px;
+  margin-top: 50px;
+  box-sizing: border-box;
+  background: rgb(228, 226, 226);
+}
+.Section3 h2 {
+  text-align: center;
+  color: rgba(51, 51, 51, 0.8);
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 36px;
+}
+.Section3 .card {
+  height: 100%;
+  padding: 10px 10px 20px;
+  border-radius: 5px;
+}
+.Section3 .card h5 {
+  color: rgba(51, 51, 51, 0.8);
+}
+.Section3 i {
+  color: rgba(18, 107, 209, 0.7);
+  font-size: 50px;
+  margin-right: 15px;
+}
+
+/* Seection4 */
+.homeSection4 {
+  text-align: center;
+  margin-top: 50px;
+  max-width: 550px;
+}
+.homeSection4 img {
+  max-width: 30%;
+  border-radius: 50%;
+}
+.homeSection4 h2 {
+  text-align: center;
+  color: rgba(51, 51, 51, 0.8);
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 36px;
+}
+.homeSection4 .carousel {
+  max-width: 520;
+  box-shadow: 0 0 5px 0 rgb(0, 0, 255, 0.5);
+  border-radius: 5px;
+}
+.homeSection4 .carousel .card {
+  padding: 20px 5px;
+  text-align: left;
+  height: 100%;
+  display: inline-block;
+}
+.homeSection4 .carousel .card-title {
+  margin: 10px 0;
+}
+.homeSection4 .carousel .card-text {
+  letter-spacing: 0.3px;
+  word-spacing: 0.3px;
+}
+.homeSection4 .carousel .card .fa-quote-left {
+  text-align: left;
+  display: inline-block;
+  font-size: 2.5rem;
+  color: rgb(0, 0, 255, 0.5);
+  margin-bottom: 10px;
+}
+
+.carousel-control-prev-icon {
+  width: 25px;
+  height: 25px;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'  fill='%333'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+}
+
+.carousel-control-next-icon {
+  width: 25px;
+  height: 25px;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'  fill='%333'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+.carousel-indicators li {
+  height: 5px;
+  width: 30px;
+  margin: 0 10px;
+  background: gray;
+  margin-top: 20px;
+}
+.carousel-indicators .active {
+  background: black;
+}
+
+.Section5 {
+  padding: 50px 0;
+}
+.Section5 h2 {
+  text-align: center;
+  color: rgba(51, 51, 51, 0.8);
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 36px;
+  padding-top: 20px;
+}
+.Section5 img {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.Section5 .card-image {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+
+  margin-bottom: 20px;
+}
+.Section5 .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 40px;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 2px;
+  opacity: 0;
+  transition: all ease-in 300ms;
+}
+.Section5 .card-image:hover .btn {
+  opacity: 1;
+}
+.Section5 .card-image:hover img {
+  opacity: 0.8;
+}
